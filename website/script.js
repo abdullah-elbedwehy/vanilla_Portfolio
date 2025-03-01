@@ -1,15 +1,3 @@
-// Typing Animation
-const typed = new Typed('#typed-text', {
-    strings: [
-        'Python Developer 🐍',
-        'AI Enthusiast 🤖',
-        'Prompt Engineer ⚡',
-        'Web Developer 🌐'
-    ],
-    typeSpeed: 50,
-    backSpeed: 30,
-    loop: true
-});
 
 // Theme Switcher
 const themeToggle = document.getElementById('theme-toggle');
