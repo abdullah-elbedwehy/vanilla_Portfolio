@@ -132,7 +132,7 @@
             }
         },
         "projects": {
-            "enabled": true,
+            "enabled": false,
             "maxProjects": 6
         },
         "contact": {
