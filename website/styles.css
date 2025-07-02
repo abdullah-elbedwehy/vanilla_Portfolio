@@ -8,6 +8,7 @@
     --text-secondary: #8892b0;
     --accent: #64ffda;
     --accent-hover: #4cd8b2;
+    --accent-rgb: 100, 255, 218;
 
     /* Spacing */
     --container-padding: clamp(1rem, 5vw, 2rem);
@@ -56,6 +57,7 @@
     --text-secondary: #6c757d;
     --accent: #0056b3;
     --accent-hover: #003d82;
+    --accent-rgb: 0, 86, 179;
 }
 
 /* Red Theme */
@@ -67,6 +69,7 @@
     --text-secondary: #8892b0;
     --accent: #ff4d4d;
     --accent-hover: #ff3333;
+    --accent-rgb: 255, 77, 77;
 }
 
 [data-theme="light"][data-color="red"] {
@@ -77,6 +80,7 @@
     --text-secondary: #6c757d;
     --accent: #dc3545;
     --accent-hover: #c82333;
+    --accent-rgb: 220, 53, 69;
 }
 
 /* Blue Theme */
@@ -88,6 +92,7 @@
     --text-secondary: #8892b0;
     --accent: #4d9fff;
     --accent-hover: #3388ff;
+    --accent-rgb: 77, 159, 255;
 }
 
 [data-theme="light"][data-color="blue"] {
@@ -98,6 +103,7 @@
     --text-secondary: #6c757d;
     --accent: #007bff;
     --accent-hover: #0056b3;
+    --accent-rgb: 0, 123, 255;
 }
 
 /* Green Theme */
@@ -109,6 +115,7 @@
     --text-secondary: #8892b0;
     --accent: #4dff9f;
     --accent-hover: #33ff88;
+    --accent-rgb: 77, 255, 159;
 }
 
 [data-theme="light"][data-color="green"] {
@@ -119,6 +126,7 @@
     --text-secondary: #6c757d;
     --accent: #28a745;
     --accent-hover: #218838;
+    --accent-rgb: 40, 167, 69;
 }
 
 /* Purple Theme */
@@ -130,6 +138,7 @@
     --text-secondary: #8892b0;
     --accent: #9f4dff;
     --accent-hover: #8833ff;
+    --accent-rgb: 159, 77, 255;
 }
 
 [data-theme="light"][data-color="purple"] {
@@ -140,6 +149,7 @@
     --text-secondary: #6c757d;
     --accent: #6f42c1;
     --accent-hover: #553098;
+    --accent-rgb: 111, 66, 193;
 }
 
 /* Orange Theme */
@@ -151,6 +161,7 @@
     --text-secondary: #8892b0;
     --accent: #ff9f4d;
     --accent-hover: #ff8833;
+    --accent-rgb: 255, 159, 77;
 }
 
 [data-theme="light"][data-color="orange"] {
@@ -161,6 +172,7 @@
     --text-secondary: #6c757d;
     --accent: #fd7e14;
     --accent-hover: #dc6502;
+    --accent-rgb: 253, 126, 20;
 }
 
 /* Loading Screen */

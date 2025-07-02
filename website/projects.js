@@ -37,8 +37,14 @@ function getDeviconClass(language) {
         haskell: "devicon-haskell-plain",
     };
 
-    // Fixed fallback chain
-    return specialCases[langLower] || `devicon-${langLower}-plain` || "devicon-github-plain";
+    // Use predefined mapping when available
+    if (specialCases[langLower]) {
+        return specialCases[langLower];
+    }
+
+    // Fallback to generic devicon class based on the language name
+    const normalized = langLower.replace(/[^a-z0-9]/g, "");
+    return `devicon-${normalized}-plain`;
 }
 
 // Function to fetch public repositories to avoid rate limiting

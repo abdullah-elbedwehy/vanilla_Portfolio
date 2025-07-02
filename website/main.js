@@ -191,6 +191,7 @@ const ContentManager = {
                                     (item) => `
                                 <div class="tech-card">
                                     <i class="${
+                                        item.icon ||
                                         techStackIcons[item.name] ||
                                         "devicon-github-original"
                                     }" title="${item.name}"></i>
