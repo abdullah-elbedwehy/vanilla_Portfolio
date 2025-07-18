@@ -1,0 +1,33 @@
+{
+  "pages": {
+    "home": {
+      "title": "Welcome",
+      "content": "This is the home page loaded from JSON.",
+      "carouselImages": [
+        "https://via.placeholder.com/600x300?text=1",
+        "https://via.placeholder.com/600x300?text=2",
+        "https://via.placeholder.com/600x300?text=3"
+      ]
+    },
+    "about": {
+      "title": "About",
+      "tabs": {
+        "Mission": "Our mission is to build accessible sites.",
+        "Vision": "Create modern web experiences.",
+        "Values": "Integrity, Innovation, Inclusion"
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "carouselImages": [
+        "https://via.placeholder.com/600x300?text=A",
+        "https://via.placeholder.com/600x300?text=B",
+        "https://via.placeholder.com/600x300?text=C"
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "Feel free to reach out via the form below."
+    }
+  }
+}
